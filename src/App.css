@@ -81,3 +81,7 @@
   color: #000000;
   text-decoration: none;
 }
+
+.link:focus {
+  font-weight: 700;
+}
