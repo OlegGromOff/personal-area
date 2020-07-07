@@ -10,8 +10,8 @@ const MainData = (props) => {
         <p>{props.name}</p>
         <p>{props.surname}</p>
         <p>{props.age}</p>
-        <p><a href="tel:{props.phone} ">{props.phone}</a></p>
-        <p><a href="mailto:{props.email} ">{props.email}</a></p>
+        <p><a href="tel:{props.phone} ">тел. {props.phone}</a></p>
+        <p><a href="mailto:{props.email} ">email: {props.email}</a></p>
       </div>
     </div>
   )

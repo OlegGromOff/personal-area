@@ -18,7 +18,7 @@ function App() {
           <div className="main">
             <SideBar />
             <div className="right-side">
-              <Route path='/main-data' render={() => <MainData name="Oleg" surname="Gromov" age="33" phone="0933452903" email="rekops@ukr.net" />} />
+              <Route exact path='/' render={() => <MainData name="Олег" surname="Громов" age="33 года" phone="0933452903" email="rekops@ukr.net" />} />
               <Route path='/basket' render={() => <Basket products="0" />} />
               <Route path='/order' render={() => <Order orders="0" />} />
             </div>
